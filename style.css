@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'Coaster Quake';
+    src: url(assets/Coaster\ Quake\ -\ Personal\ Use.otf);
+}
+@font-face {
+    font-family: 'Bunch Blossoms';
+    src: url(assets/BunchBlossomsPersonalUse-0nA4.ttf);
+}
+
+@font-face {
+    font-family: 'Mungil';
+    src: url(assets/Mungil-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Shakies';
+    src: url(assets/Shakies-OpenType-TT.ttf);
+}
+
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+    background-image: url(assets/origbig.png);
+}
+
+h1 {
+    /* font-family: 'Bunch Blossoms', sans-serif; */
+    font-family: 'Bunch Blossoms', sans-serif;
+    font-size: 50px;
+
+    color: #3f4238;
+    /* text-align: center; */
+    /* margin-top: 20%; */
+}
+
+h2 {
+    font-family: 'Mungil', sans-serif;
+    font-size: 25px;
+
+    color: #6B705C;
+    /* text-align: center; */
+    /* margin-top: 20%; */
+}
+
+main {
+    flex-grow: 1;
+}
+
+footer {
+    background-color: rgba(107, 112, 92, 0.75);
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    margin-top: 20%;
+    
+    
+
+    font-family: 'Mungil', sans-serif;
+
+    color: #FFE8D6;
+
+   
+
+    /* opacity: 50%; */
+
+}
+
+
+/* .container {
+    display: inline-block;
+    padding-bottom: 20%;
+    margin-bottom: 20%;
+} */
+/* .body {
+    display: inline-block;
+    padding-bottom: 20%;
+    margin-bottom: 20%;
+} */
